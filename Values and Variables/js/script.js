@@ -27,5 +27,7 @@ var phrase = 'I don\'t know \nYou\'ll have to speak to the professor';
 
 var muppetNames = ["Kermit", "Miss Piggy", "Gonzo", "Rizzo"];
 
+muppetNames[1] = "Rizzo";
+muppetNames[2] = "Fozzy";
 
-console.log(muppetNames);
+console.log(muppetNames[2]);
