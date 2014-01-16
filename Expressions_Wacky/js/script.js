@@ -9,5 +9,8 @@ var canDisplay = 4;//Number of comics that can fit in your display case?
 
 var totalPurchases = daily * weeks * 7;
 
+var displaysNeeded = totalPurchases / canDisplay;
+
+
 console.log();
 
