@@ -26,3 +26,5 @@ console.log("Sparky is " + sparkyAge +  " human years which is " + dogAge + " in
 var slicePerPie = 8;        //Number of slices per pie
 var attendees = 67;         //Number of attendees at party
 var piesOrdered = 10;       //Number of pizzas ordered
+
+var slicePer = slicePerPie * piesOrdered / attendees; //
