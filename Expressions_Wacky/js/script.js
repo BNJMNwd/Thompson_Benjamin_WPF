@@ -3,6 +3,9 @@
 //How many display cases will I need?
 
 
-//Number of comics purchased per day?
-//Number of week I will be purchasing them?
-//Number of comics that can fit in your display case?
+var daily = 7; //Number of comics purchased per day?
+var weeks = 5;//Number of week I will be purchasing them?
+var canDisplay = 4;//Number of comics that can fit in your display case?
+
+
+
