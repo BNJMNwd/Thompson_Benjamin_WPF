@@ -78,3 +78,6 @@ var tax = 7;                        //Sales tax percentage of item
 
 var noTax = origCost - (origCost * (discount / 100));
 var withTax = (origCost - (origCost * (discount / 100))) + (noTax * (tax / 100));
+
+
+console.log("Your " + description + " was originally \$" + origCost + " but after a " + discount + "% it is now " + "$" + noTax + " without tax, and " + "$" + withTax + " with tax" )
