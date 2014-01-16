@@ -23,6 +23,6 @@ console.log("Sparky is " + sparkyAge +  " human years which is " + dogAge + " in
 //How many slices of pizza can each person at the party have if they all have the same amount
 
 
-//Number of slices per pie
-//Number of attendees at party
-//Number of pizzas ordered 
+var slicePerPie = 8;        //Number of slices per pie
+var attendees = 67;         //Number of attendees at party
+var piesOrdered = 10;       //Number of pizzas ordered
