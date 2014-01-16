@@ -71,10 +71,10 @@ console.log("You have spent a total of " + "\$" +  overallTotal + " on groceries
 //Discounted price of an item with and without sales tax
 
 
-var origCost = 19.99;   //Original price of item
-//Discount percentage
-//What the item is
-//Sales tax percentage of item
+var origCost = 19.99;               //Original price of item
+var discount = 35;                  //Discount percentage
+var description = "Remote Control"; //What the item is
+var tax = 7;                        //Sales tax percentage of item
 
 
 
