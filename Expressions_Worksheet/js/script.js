@@ -26,8 +26,8 @@ console.log("Sparky is " + sparkyAge +  " human years which is " + dogAge + " in
 
 
 var slicePerPie = 8;        //Number of slices per pie
-var attendees = 19;         //Number of attendees at party
-var piesOrdered = 6;       //Number of pizzas ordered
+var attendees = 23;         //Number of attendees at party
+var piesOrdered = 8;       //Number of pizzas ordered
 
 var slicePerAttendee = slicePerPie * piesOrdered / attendees; //Multiply the number of slices per pizza pie by the number of pizzas ordered and divide that number by the number of attendees at the party
 
@@ -45,7 +45,14 @@ var sparkysDinner = attendees % piesOrdered; //The number of slices that Sparky 
 
 //This is what is printed
 
-console.log(sparkysDinner);
+console.log("Sparky got " + sparkysDinner + " slices of pizza");
+
+
+
+
+
+
+
 
 
 
