@@ -76,8 +76,9 @@ var discount = 35;                  //Discount percentage
 var description = "Remote Control"; //What the item is
 var tax = 7;                        //Sales tax percentage of item
 
-var noTax = origCost - (origCost * (discount / 100));
-var withTax = (origCost - (origCost * (discount / 100))) + (noTax * (tax / 100));
+var noTax = origCost - (origCost * (discount / 100)); //The formula to ge the total of the price with the discount
+var withTax = (origCost - (origCost * (discount / 100))) + (noTax * (tax / 100)); //The formula to ge the total of the price with the discount plus tax
 
+//This is what is printed
 
 console.log("Your " + description + " was originally \$" + origCost + " but after a " + discount + "% it is now " + "$" + noTax + " without tax, and " + "$" + withTax + " with tax" )
