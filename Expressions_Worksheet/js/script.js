@@ -60,14 +60,21 @@ var overallTotal = weeklyTotals[0] + weeklyTotals[1] + weeklyTotals[2] + weeklyT
 var weeklyAver = overallTotal / 5; //The weekly average. The total divided by the number of weeks
 
 
-//This is what is printed 
+//This is what is printed
 
 console.log("You have spent a total of " + "\$" +  overallTotal + " on groceries over the last 5 weeks. This is an average of " + "\$" + weeklyAver + " per week" );
 
 
 
+//Discounts
+
+//Discounted price of an item with and without sales tax
 
 
+var origCost = 19.99;   //Original price of item
+//Discount percentage
+//What the item is
+//Sales tax percentage of item
 
 
 
