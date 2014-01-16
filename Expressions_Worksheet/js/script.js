@@ -16,6 +16,8 @@ var dogAge = sparkyAge * 7; // Multiples Sparky's age in human years by 7 which 
 console.log("Sparky is " + sparkyAge +  " human years which is " + dogAge + " in dog years.");
 
 
+
+
 //Slice of pie part 1
 
 
@@ -24,7 +26,11 @@ console.log("Sparky is " + sparkyAge +  " human years which is " + dogAge + " in
 
 
 var slicePerPie = 8;        //Number of slices per pie
-var attendees = 67;         //Number of attendees at party
-var piesOrdered = 10;       //Number of pizzas ordered
+var attendees = 48;         //Number of attendees at party
+var piesOrdered = 15;       //Number of pizzas ordered
 
-var slicePer = slicePerPie * piesOrdered / attendees; //
+var slicePerAttendee = slicePerPie * piesOrdered / attendees; //Multiply the number of slices per pizza pie by the number of pizzas ordered and divide that number by the number of attendees at the party
+
+//This is what is printed
+
+console.log("Each person ate " + slicePerAttendee + " slices of pizza at the party");
