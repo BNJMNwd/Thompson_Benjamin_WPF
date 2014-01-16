@@ -53,9 +53,9 @@ console.log("Sparky got " + sparkysDinner + " slices of pizza");
 
 //Your average shopping bill for the week
 
-var weeklyTotals = [87, 95, 123, 72, 94];
+var weeklyTotals = [87, 95, 123, 72, 94]; //The weekly totals spent
 
-var overallTotal = weeklyTotals[0] + weeklyTotals[1] + weeklyTotals[2] + weeklyTotals[3] + weeklyTotals[4];
+var overallTotal = weeklyTotals[0] + weeklyTotals[1] + weeklyTotals[2] + weeklyTotals[3] + weeklyTotals[4]; //Adding all the weekly totals
 
 var weeklyAver = overallTotal / 5;
 
