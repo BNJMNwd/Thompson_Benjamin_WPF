@@ -12,5 +12,5 @@ var totalPurchases = daily * weeks * 7;
 var displaysNeeded = totalPurchases / canDisplay;
 
 
-console.log();
+console.log("You will need a total of " + displaysNeeded + " display cases to showcase your wicked crazy collection of " +totalPurchases + " comic books!");
 
