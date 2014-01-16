@@ -61,6 +61,11 @@ var weeklyAver = overallTotal / 5;
 
 
 
+console.log("You have spent a total of " + "\$" +  overallTotal + " on groceries over the last 5 weeks. This is an average of " + "\$" + weeklyAver + " per week" );
+
+
+
+
 
 
 
