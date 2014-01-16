@@ -9,7 +9,7 @@ var exits = 367;        //How many people left the park between 1pm and 2pm?
 
 var inPark = previousHour + entered - exits; //The number of people in the park was the previous total plus the entries minus the exits.
 
-var increase = inPark - previousHour; //A calculation to tell the difference between the number of customers since last hour
+var increase = inPark - previousHour; //A calculation to tell the difference between the number of customers since last hour. The total currently in minus the total from the previous hour
 
 //What will be displayed
 
