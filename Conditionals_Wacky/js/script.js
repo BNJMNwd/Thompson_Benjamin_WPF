@@ -10,10 +10,10 @@ var boxSpace = length * width;      //The length of the box multiplied by the wi
 
 var boxesNeeded = houseSize / boxSpace;     //The size of the house divided by the total space of the box
 
-if(length === "" || width === "" || houseSize === ""){
+if(length === "" || width === "" || houseSize === ""){      //If any of the prompts are blank do this
     alert("You forgot to input something! Let's try again.");
 
-
+    //The remainder/repeat of the program
     var length = prompt("What is the length of your box in feet ");
     var width = prompt("What is the width of your box in feet?");
     var houseSize = prompt("How many square feet is your apartment")
@@ -22,9 +22,12 @@ if(length === "" || width === "" || houseSize === ""){
     var boxesNeeded = houseSize / boxSpace;
 
 
+    // What will be printed
     console.log("If your apartment is " + houseSize + " square feet, you will need " + boxesNeeded + " boxes to completely fill your house!");
 
-}else{
+}else{      //If not do this
+
+    // What will be printed 
     console.log("If your apartment is " + houseSize + " square feet, you will need " + boxesNeeded + " boxes to completely fill your house!");
 }
 
