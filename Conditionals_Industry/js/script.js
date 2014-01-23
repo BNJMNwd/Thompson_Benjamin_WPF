@@ -1,6 +1,8 @@
 //Benjamin Thompson 1/23/14 Conditionals Industry
 
 
+//Is it time to get a new computer?
+
 var ageOfComputer = prompt("How many years have you had your computer?");   //The user enters how many years they have had a computer
 var computerVirus = prompt("How many minutes does it take for your computer take to start up?");    //The user enters how many minutes it takes to start up its computer
 
