@@ -1,6 +1,6 @@
 //Conditionals Worksheet
 
-
+/*
 //Last Chance for Gas!
 
 var mpg = 32;
@@ -23,3 +23,31 @@ if(mpg * tank >= distance  ){
 
 
 
+//Check the Login
+
+
+var enterUserName = prompt("Enter Your Username");
+var enterPassword = prompt("Enter Your Password");
+
+
+
+ var userName = "bapt1988";
+ var password = "12345";
+
+
+
+if(userName === enterUserName && password === enterPassword){
+    console.log("Welcome, " + userName + "/!");
+
+}else if(password === enterPassword){
+    console.log("User not found. Try again");
+
+}else{
+    console.log("Password does not match our records.");
+}
+
+
+*/
+
+
+//
