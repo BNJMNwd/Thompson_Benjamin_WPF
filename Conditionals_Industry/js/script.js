@@ -9,9 +9,7 @@ if(ageOfComputer === ""){
     alert("You forgot to input something!");
     var ageOfComputer = prompt("How many years have you had your computer?");
 
-
     computerMessage = (ageOfComputer > 2 || computerVirus > 7 ) ? "You get a new computer!!" : "You do not get a new computer yet.";
-
 
     console.log(computerMessage);
 }else if(computerVirus === ""){
@@ -19,14 +17,11 @@ if(ageOfComputer === ""){
     alert("You forgot to input something!");
     var computerVirus = prompt("How many minutes does it take for your computer take to start up?")
 
-
     computerMessage = (ageOfComputer > 2 || computerVirus > 7 ) ? "You get a new computer!!" : "You do not get a new computer yet.";
-
 
     console.log(computerMessage);
 }else{
 computerMessage = (ageOfComputer > 2 || computerVirus > 7 ) ? "You get a new computer!!" : "You do not get a new computer yet.";
-
 
 console.log(computerMessage);
 }
