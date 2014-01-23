@@ -14,15 +14,14 @@ var howManyRooms = prompt("How many rooms have been packed?");
 var howMuchGas = prompt("How many gallons of gas our in the truck?")
 
 
-if(){
 
 
-}else if(){
-
+if(howManyRooms === "" || howMuchGas === ""){
+    alert("You forgot to input something! Let's try again.");
 
 }else if(howManyRooms >= rooms && howMuchGas >= gasNeeded) {
 
-    console.log("Good job! You are ready to move!")
+    console.log("Good job! You are ready for the big move!")
 }else{
 
     console.log("Some more prep is needed before the big move!")
