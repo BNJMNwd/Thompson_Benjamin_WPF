@@ -2,13 +2,13 @@
 
 //How many boxes would you need to fill an entire apartment
 
-var length = prompt("What is the length of your box in feet ");
-var width = prompt("What is the width of your box in feet?");
-var houseSize = prompt("How many square feet is your apartment");
+var length = prompt("What is the length of your box in feet ");     //The length of the box
+var width = prompt("What is the width of your box in feet?");       //The width of the box
+var houseSize = prompt("How many square feet is your apartment");   //How many square feet is the apartment
 
-var boxSpace = length * width;
+var boxSpace = length * width;      //The length of the box multiplied by the width of the box
 
-var boxesNeeded = houseSize / boxSpace;
+var boxesNeeded = houseSize / boxSpace;     //The size of the house divided by the total space of the box
 
 if(length === "" || width === "" || houseSize === ""){
     alert("You forgot to input something! Let's try again.");
