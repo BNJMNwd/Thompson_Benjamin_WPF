@@ -4,24 +4,27 @@
 var ageOfComputer = prompt("How many years have you had your computer?");   //The user enters how many years they have had a computer
 var computerVirus = prompt("How many minutes does it take for your computer take to start up?");    //The user enters how many minutes it takes to start up its computer
 
-if(ageOfComputer === ""){
 
-    alert("You forgot to input something!");
-    var ageOfComputer = prompt("How many years have you had your computer?");
+var endOfLease = 2;
+var tooSlow = 7;
+if(ageOfComputer === ""){   //Check to make sure user entered data into the age of computer prompt
 
-    computerMessage = (ageOfComputer > 2 || computerVirus > 7 ) ? "You get a new computer!!" : "You do not get a new computer yet.";
+    alert("You forgot to input something!");    //Alert that they are missing some info
+    var ageOfComputer = prompt("How many years have you had your computer?");   //The user has a chance to renter this information
 
-    console.log(computerMessage);
-}else if(computerVirus === ""){
+    computerMessage = (ageOfComputer > endOfLease || computerVirus > tooSlow ) ? "You get a new computer!!" : "You do not need a new computer yet.";       //If the computer is less then the designated years old and it takes less time than designated the user does not get a new computer. Otherwise they do get a new computer
 
-    alert("You forgot to input something!");
-    var computerVirus = prompt("How many minutes does it take for your computer take to start up?")
+    console.log(computerMessage);       //Displayed Message
+}else if(computerVirus === ""){                //Check to make sure user entered data into the virus/computer speed prompt
 
-    computerMessage = (ageOfComputer > 2 || computerVirus > 7 ) ? "You get a new computer!!" : "You do not get a new computer yet.";
+    alert("You forgot to input something!");    //Alert that they are missing some info
+    var computerVirus = prompt("How many minutes does it take for your computer take to start up?") //The user has a chance to renter this information
 
-    console.log(computerMessage);
+    computerMessage = (ageOfComputer > endOfLease || computerVirus > tooSlow ) ? "You get a new computer!!" : "You do not need a new computer yet.";       //If the computer is less then the designated years old and it takes less time than designated the user does not get a new computer. Otherwise they do get a new computer
+
+    console.log(computerMessage);       //Displayed Message
 }else{
-computerMessage = (ageOfComputer > 2 || computerVirus > 7 ) ? "You get a new computer!!" : "You do not get a new computer yet.";
+    computerMessage = (ageOfComputer > endOfLease || computerVirus > tooSlow ) ? "You get a new computer!!" : "You do not need a new computer yet.";       //If the computer is less then the designated years old and it takes less time than designated the user does not get a new computer. Otherwise they do get a new computer
 
-console.log(computerMessage);
+    console.log(computerMessage);       //Displayed Message
 }
