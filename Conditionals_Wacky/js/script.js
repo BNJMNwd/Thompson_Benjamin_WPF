@@ -27,7 +27,7 @@ if(length === "" || width === "" || houseSize === ""){      //If any of the prom
 
 }else{      //If not do this
 
-    // What will be printed 
+    // What will be printed
     console.log("If your apartment is " + houseSize + " square feet, you will need " + boxesNeeded + " boxes to completely fill your house!");
 }
 
