@@ -12,16 +12,16 @@
 var answer = circOfCircle(100);  //Variable that allows answer to print and also the argument for the function
 
 function circOfCircle(radius){          //Start of the function and the name as well as the parameter for function
-   var circumference = radius * 3.14;   //The calculation to get the circumference of the circle
+    var pi = 3.14;
+    var circumference = radius * pi;   //The calculation to get the circumference of the circle
    return circumference;                //Allow the return
 }
 
-console.log("The circumference of the circle is " + answer);        //What is printed 
+console.log("The circumference of the circle is " + answer);        //What is printed
 
 
 
 //Question 2: Stung!
-
 
 //How many bees does it take to kill an animal
 
