@@ -9,13 +9,13 @@
 
 
 
-circOfCircle(20)
+var answer = circOfCircle(29);
 
 function circOfCircle(radius){
    var circumference = radius * 3.14;
    return circumference;
 }
 
-console.log; 
+console.log(answer);
 
 //Question 2: Stung!
