@@ -25,11 +25,11 @@ console.log("The circumference of the circle is " + answer);
 
 //How many bees does it take to kill an animal
 
-var beeStings = howMany(145);
+var beeStings = howMany(145);       //Variable that allows answer to print and also the argument for the function
 
-function howMany(vicWeight){
+function howMany(vicWeight){        //Start of the function and the name as well as the parameter for function
     var total = vicWeight * 8.666666667;
     return total;
 }
 
-console.log("It takes " + beeStings +  " bee stings to kill this animal."); 
+console.log("It takes " + beeStings +  " bee stings to kill this animal.");
