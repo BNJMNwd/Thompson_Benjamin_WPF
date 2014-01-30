@@ -16,7 +16,7 @@ function circOfCircle(radius){          //Start of the function and the name as 
    return circumference;                //Allow the return
 }
 
-console.log("The circumference of the circle is " + answer);
+console.log("The circumference of the circle is " + answer);        //What is printed 
 
 
 
@@ -28,8 +28,8 @@ console.log("The circumference of the circle is " + answer);
 var beeStings = howMany(145);       //Variable that allows answer to print and also the argument for the function
 
 function howMany(vicWeight){        //Start of the function and the name as well as the parameter for function
-    var total = vicWeight * 8.666666667;
-    return total;
+    var total = vicWeight * 8.666666667;    //The calculation of how many stings it takes per pound
+    return total;                   //Allow the return
 }
 
-console.log("It takes " + beeStings +  " bee stings to kill this animal.");
+console.log("It takes " + beeStings +  " bee stings to kill this animal.");     //What is printed
