@@ -9,11 +9,11 @@
 
 
 
-var answer = circOfCircle(29);
+var answer = circOfCircle(29);  //Variable that allows answer to print and also the argument for the function
 
-function circOfCircle(radius){
-   var circumference = radius * 3.14;
-   return circumference;
+function circOfCircle(radius){          //Start of the function and the name as well as the parameter for function
+   var circumference = radius * 3.14;   //The calculation to get the circumference of the circle
+   return circumference;                //Allow the return
 }
 
 console.log(answer);
