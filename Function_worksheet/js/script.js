@@ -13,7 +13,9 @@ circOfCircle(20)
 
 function circOfCircle(radius){
    var circumference = radius * 3.14;
-    console.log(circumference);
+   return circumference;
 }
+
+console.log; 
 
 //Question 2: Stung!
