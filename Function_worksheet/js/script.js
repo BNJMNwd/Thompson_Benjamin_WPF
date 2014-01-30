@@ -18,4 +18,9 @@ function circOfCircle(radius){          //Start of the function and the name as 
 
 console.log("The circumference of the circle is " + answer);
 
+
+
 //Question 2: Stung!
+
+
+//How many bees does it take to kill an animal 
