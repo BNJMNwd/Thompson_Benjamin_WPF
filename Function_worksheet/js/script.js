@@ -28,6 +28,6 @@ console.log("The circumference of the circle is " + answer);
 var weight = howMany(145);
 
 function howMany(vicWeight){
-
-    return total; 
+    var total = vicWeight * 8.666666667; 
+    return total;
 }
