@@ -28,7 +28,7 @@ console.log("The circumference of the circle is " + answer);        //What is pr
 var beeStings = howMany(145);       //Variable that allows answer to print and also the argument for the function
 
 function howMany(vicWeight){        //Start of the function and the name as well as the parameter for function
-    var stingsNeeded = 8.666666667; //Variable to give us the number of stings needed for the following formula 
+    var stingsNeeded = 8.666666667; //Variable to give us the number of stings needed for the following formula
     var total = vicWeight * stingsNeeded ;    //The calculation of how many stings it takes per pound
     return total;                   //Allow the return
 }
