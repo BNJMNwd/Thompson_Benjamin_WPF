@@ -9,5 +9,6 @@ var distance = parseInt(prompt("How many miles do you walk each time you take yo
 var timeNeeded = howLong(daily, weekly, distance);
 
 function howLong(daily, weekly , distance){
-
+    var time = 100 /(distance * daily * weekly) ;
+    return time;
 }
