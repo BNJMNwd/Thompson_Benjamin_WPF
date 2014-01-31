@@ -8,6 +8,8 @@ var lightning = parseInt(prompt("How many miles away was the last lightning stri
 var maxRain = 8;
 var safeDistance = 5;
 
+var answer = weather(rain, lightning)
+
 function weather(rain, lighting){
     if(
         rain <= maxRain && lighting >= safeDistance){
@@ -18,3 +20,5 @@ function weather(rain, lighting){
         return notOk;
     }
 }
+
+console.log(answer);
