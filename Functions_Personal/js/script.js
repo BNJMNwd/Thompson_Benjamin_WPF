@@ -12,3 +12,5 @@ function howLong(daily, weekly , distance){
     var time = 100 /(distance * daily * weekly) ;
     return time;
 }
+
+console.log("It would take you " + timeNeeded + " weeks to walk your dog 100 miles.");
