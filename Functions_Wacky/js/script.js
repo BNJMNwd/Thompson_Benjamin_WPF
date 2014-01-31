@@ -1,5 +1,7 @@
 //Benjamin Thompson 1/30/14 Functions Wacky
 
+//How many hand warmers will you need for your entire group?
+
 function handWarmers (){        //Start of function
     var people = 1000;          //Number of people in the group
     var perPerson = 2;          //Number of hand warmers each person will get
