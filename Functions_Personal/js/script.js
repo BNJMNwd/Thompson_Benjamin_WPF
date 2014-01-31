@@ -7,3 +7,7 @@ var weekly = parseInt(prompt("How many days a week do you walk?"));
 var distance = parseInt(prompt("How many miles do you walk each time you take your dog out?"));
 
 var timeNeeded = howLong(daily, weekly, distance);
+
+function howLong(daily, weekly , distance){
+
+}
